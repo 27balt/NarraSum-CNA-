@@ -54,11 +54,6 @@ def EvalParse(inputFileName,outputFileName,clearOutput = False):
             f.write(f"Judgement: {tempItem["Judgment"]}\n")
             f.write("\n" + "=" * 50 + "\n\n")
 
-#12 judgements have 6 aspects. Should only be 5
-#(GPT4Eval)
-
-#EvalParse("GPT4Eval(LLM4).txt","storeJudgements.txt")
-
 #Clears
 def parseToJson(inputFile,LLM,outputFile="JSONStorage.json"):
     finalStorage = []
@@ -101,8 +96,9 @@ def clearEnters(inputFile,outputFile):
 #Reads the narrative pairs you request
 #-> Returns a list of narrative pairs
 #Starting at 0, if you say 5 you'll skip the first 5
-#Total is how many narratives you want returned
-#Skip is a pattern to skip them, 0 means all in a row, 1 is every other
+#Total is how many narratives you want returned (Leave blank if all)
+#Skip is a pattern to skip them, 0 means all in a row, 1 is every other (Leave blank if no skips)
+#[]
 def readNarratives(start=0,total=-1,skip=0):
     with open('Narrative Doc.txt','r') as f:
         Narratives = f.read().split("=====\n")
