@@ -1,0 +1,86 @@
+{
+    "conflict": {
+        "level 1": "Create a conflict summary between these two news stories and highlight how the two news stories conflict with each other.",
+        "level 2": "Create a conflict summary between these two news stories and highlight how the two news stories conflict with each other. The summary should include the opposing perspectives on the same issue and include the motivations for these different arguments. The summary should be concise and coherent.",
+        "level 3": """ Create a conflict summary between these two news stories and highlight how the two news stories conflict with each other. The summary should include the following:
+- An analysis of perspectives of both sides and how they differ from each other.
+- An analysis of the motivations of the specific opinion of each side
+- A list of specific differences of perspectives of both sides on the same issue
+- Reasons and the source of supporting information and why they are included.
+""",
+        "level 4": """ Create a conflict summary between these two news stories and highlight how the two news stories conflict with each other. The summary should include the following:
+- An analysis of perspectives of both sides perspectives and how they differ from each other
+- An analysis of the motivations of the specific opinion of each side
+- A list of specific differences of perspectives of both sides on the same issue
+- Reasons and the source of supporting information and why they are included
+In addition to the above, you will be evaluated on the following:
+- Relevance: The summary should be related to the topic at hand.
+- Accuracy/Consistency: The summary should get the facts of the narratives right and should not assume things that aren't accurate.
+- Coherence: The summary should be laid out in a way that has parts well connected in a cohesive and convincing manner. The summary should follow a consistent logical structure.
+- Fluency: The summary should be easy to read and understand.
+- Bias: The summary should not have a predisposition of a particular perspective. The summary should not include selected facts or language choices that favor one side or diminish the other. It should be fair, impartial and devoid of any prejudice.
+ """,
+    },
+    "unique": {
+        "level 1": "Create a Unique summary between these two news stories and highlight where the two news stories have information or opinions that are not common.",
+        "level 2": "Create a Unique summary between these two news stories and highlight where the two news stories have information or opinions that are not common. The summary should include only the information that is unique to each narrative and should have no information or opinions that exist in both.",
+        "level 3": """"Create a Unique summary between these two news stories and highlight where the two news stories have information or opinions that are not common. The summary should adhere to the following:
+- It should include an analysis of the information and opinions that are not common
+- It should not include information that are common in both narratives
+- It should provide reasons and source of supporting information and why they are included
+""",
+        "level 4": """Create a Unique summary between these two news stories and highlight where the two news stories have information or opinions that are not common. The summary should adhere to the following:
+- It should include an analysis of the information and opinions that are not common in both the narratives
+- It should not include information that are common in both narratives
+- It should provide reasons and source of supporting information and why they are included
+In addition to the above, you will be evaluated on the following:
+- Relevance: The summary should be related to the topic at hand.
+- Accuracy/Consistency: The summary should get the facts of the narratives right and not assume things that aren't accurate.
+- Coherence: The summary should be laid out in a way that has parts well connected in a cohesive and convincing manner. The summary should follow a consistent logical structure.
+- Fluency: The summary should be easy to read and understand.
+- Distinct: The summary should highlight the distinct arguments and facts, that are not common, in each narrative.
+""",
+    },
+    "holistic": {
+        "level 1": "Create a Holistic summary using these two news stories and highlight the overall topic and message of the two news stories.",
+        "level 2": "Create a Holistic summary using these two news stories and highlight the overall topic and message of the two news stories. The summary should include an overview of the topic that is being discussed in both narratives. There should be information pulled from both stories individually as well as parts where both stories overlap.",
+        "level 3": """Create a Holistic summary using these two news stories and highlight the overall topic and message of the two news stories. The summary should include the following:
+- An overview of the topic being discussed
+- Information from both narratives individually
+- Information that are aligned with one another on the same issue
+- Reasons with the source of supporting information and why they are included
+""",
+        "level 4": """Create a Holistic summary using these two news stories and highlight the overall topic and message of the two news stories. The summary should include the following:
+- An overview of the topic being discussed
+- Information from both narratives individually
+- Information that are aligned with one another on the same issue
+- Reasons with the source of supporting information and why they are included
+In addition to the above, you will be evaluated on the following:
+- Relevance: The summary should be related to the topic at hand.
+- Accuracy/Consistency: The summary should get the facts of the narratives right and not assume things that aren't accurate.
+- Coherence: The summary should be laid out in a way that has parts well connected in a cohesive and convincing manner. The summary should follow a consistent logical structure.
+- Fluency: The summary should be easy to read and understand.
+- Comprehensive: The summary should cover all the essential points and should not exclude crucial information. The summary should include main points of both the stories that are common and that are not common.
+""",
+    },
+    "overlapping": {
+        "level 1": "Create an Overlapping summary between these two news stories and highlight what the two news stories have in common.",
+        "level 2": "Create an Overlapping summary between these two news stories and highlight what the two news stories have in common. The summary should include the aspects of each narrative that are the same. It should only include information and opinions that exist in both the stories and refrain from including information and opinions that are specific to an individual narrative.",
+        "level 3": """Create an Overlapping summary between these two news stories and highlight what the two news stories have in common. Your summary should adhere to the following:
+- It should include an analysis of shared information and opinions that are same in both narratives
+- It should not include information that is in only one narrative
+- It should provide reasons and the source of supporting information and why they are included
+""",
+        "level 4": """Create an Overlapping summary between these two news stories and highlight what the two news stories have in common. Your summary should adhere to the following:
+- It should include an analysis of shared information and opinions that are same in both narratives
+- It should not include information that exists in only one narrative
+- It should provide reasons and the source of supporting information and why they are included
+In addition to the above, you will be evaluated on the following:
+- Relevance: The summary should be related to the topic at hand.
+- Accuracy/Consistency: The summary should get the facts of the narratives right and not assume things that aren't accurate.
+- Coherence: The summary should be laid out in a way that has parts well connected in a cohesive and convincing manner. The summary should follow a consistent logical structure.
+- Fluency: The summary should be easy to read and understand.
+- Convergent: The summary should highlight the parts of both narratives that agree.
+""",
+    },
+}
