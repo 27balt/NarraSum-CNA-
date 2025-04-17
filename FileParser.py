@@ -48,7 +48,7 @@ def EvalParse(inputFileName,outputFileName,clearOutput = False):
         with open(outputFileName,"a") as f:
             f.write(f"News: {tempItem["News"]}\n")
             f.write(f"Comparison Type: {tempItem["Comparison Type"]}\n")
-            f.write(f"Prompt Level: {tempItem["Prompt Level"]}\n")
+            f.write(f"Prompt Level: {tempItem['Prompt Level']}\n")
             f.write("Summary:\n")
             f.write(tempItem["Summary"] + "\n")
             f.write(f"Judgement: {tempItem["Judgment"]}\n")
